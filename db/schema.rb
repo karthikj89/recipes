@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(:version => 20110304085841) do
     t.float    "rating"
     t.time     "open_time"
     t.time     "close_time"
-    t.float    "price"
+    t.float    "price_range"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

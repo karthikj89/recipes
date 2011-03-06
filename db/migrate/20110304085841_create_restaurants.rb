@@ -10,7 +10,7 @@ class CreateRestaurants < ActiveRecord::Migration
       t.float :rating
       t.time :open_time
       t.time :close_time
-      t.float :price
+      t.float :price_range
 
       t.timestamps
     end
