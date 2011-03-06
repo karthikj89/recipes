@@ -9,4 +9,9 @@ module ApplicationHelper
       "#{base_title} | #{@title}"
     end
   end
+
+  # Returns the logo for the header
+  def logo
+    image_tag("recipes.jpg", :alt => "Sample App", :class => "round")
+  end
 end
